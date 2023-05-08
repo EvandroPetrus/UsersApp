@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UsuariosApp.API</name>
+    </assembly>
+    <members>
+        <member name="M:UsuariosApp.API.Controllers.UsuariosController.Autenticar">
+            <summary>
+            Autenticação de usuários
+            </summary>
+        </member>
+        <member name="M:UsuariosApp.API.Controllers.UsuariosController.CriarConta">
+            <summary>
+            Criação de conta de usuários
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,54 @@
+# Arquivos gerados pelo Visual Studio
+*.obj
+*.pdb
+*.dll
+*.exe
+*.cache
+*.dll.config
+
+# Arquivos gerados pelo .NET Core SDK
+*.user
+*.vscode
+*.vs
+bin/
+obj/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.nuget.props
+*.nuget.targets
+*.snupkg
+*.pfx
+*.snk
+*.key
+*.pubxml
+*.publishsettings
+*.dll.config
+
+# Arquivos de log
+*.logs
+*.log
+
+# Arquivos de dados
+*.sqlite
+*.mdf
+*.ldf
+
+# Outros arquivos gerados pelo projeto
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+ipch/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+
+
