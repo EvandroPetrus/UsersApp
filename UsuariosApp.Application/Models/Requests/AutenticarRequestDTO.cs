@@ -9,8 +9,8 @@ namespace UsuariosApp.Application.Models.Requests
 {
     public class AutenticarRequestDTO
     {
-        [EmailAddress(ErrorMessage ="Endereco de email inválido.")]
-        [Required(ErrorMessage ="Informe o email.")]
+        [EmailAddress(ErrorMessage = "Endereco de email inválido.")]
+        [Required(ErrorMessage = "Informe o email.")]
         public string? Email { get; set; }
         
         [MinLength(8, ErrorMessage = "Senha deve conter pelo menos {1} caracteres.")]
