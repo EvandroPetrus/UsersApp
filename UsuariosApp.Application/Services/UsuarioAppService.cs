@@ -36,7 +36,7 @@ namespace UsuariosApp.Application.Services
 
             _usuarioDomainService?.CriarConta(usuario);
 
-            return new CriarContaRequestDTO
+            return new CriarContaResponseDTO
             {
                 Id = usuario.Id,
                 Nome = usuario.Nome,

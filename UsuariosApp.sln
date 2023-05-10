@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsuariosApp.Infra.Data", "UsuariosApp.Infra.Data\UsuariosApp.Infra.Data.csproj", "{BD5DAB55-2B81-4033-94EA-A138BAB76B39}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDD", "TDD", "{350465E1-952E-41DE-9B0E-93CF89CD67F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsuariosApp.Tests", "UsuariosApp.Tests\UsuariosApp.Tests.csproj", "{DEB6DA34-5DD2-42A0-B64C-384B9E098E88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{BD5DAB55-2B81-4033-94EA-A138BAB76B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD5DAB55-2B81-4033-94EA-A138BAB76B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD5DAB55-2B81-4033-94EA-A138BAB76B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB6DA34-5DD2-42A0-B64C-384B9E098E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB6DA34-5DD2-42A0-B64C-384B9E098E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB6DA34-5DD2-42A0-B64C-384B9E098E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB6DA34-5DD2-42A0-B64C-384B9E098E88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +63,7 @@ Global
 		{FCAE43B3-4ACB-4E51-8BF1-EFD48FCBBDA0} = {9670882A-9CC4-4EDE-AD12-8C72E11ED291}
 		{BCF9CEF9-DD75-41E5-8953-7D73FBD48861} = {9670882A-9CC4-4EDE-AD12-8C72E11ED291}
 		{BD5DAB55-2B81-4033-94EA-A138BAB76B39} = {BCF9CEF9-DD75-41E5-8953-7D73FBD48861}
+		{DEB6DA34-5DD2-42A0-B64C-384B9E098E88} = {350465E1-952E-41DE-9B0E-93CF89CD67F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE085242-8A45-4980-A865-24DCEF7621FE}
