@@ -8,7 +8,7 @@ using UsuariosApp.Application.Models.Responses;
 
 namespace UsuariosApp.Application.Interfaces
 {
-    public interface IUsuarioAppService
+    public interface IUsuarioAppService : IDisposable
     {
         AutenticarResponseDTO Autenticar(AutenticarRequestDTO dto);
         CriarContaResponseDTO CriarConta(CriarContaRequestDTO dto);

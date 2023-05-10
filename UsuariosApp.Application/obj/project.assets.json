@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "UsuariosApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/UsuariosApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UsuariosApp.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "UsuariosApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../UsuariosApp.Domain/UsuariosApp.Domain.csproj",
+      "msbuildProject": "../UsuariosApp.Domain/UsuariosApp.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "UsuariosApp.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\infis001091\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\UsuariosApp.Domain.csproj": {
+              "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\UsuariosApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

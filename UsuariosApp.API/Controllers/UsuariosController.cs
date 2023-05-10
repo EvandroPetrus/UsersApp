@@ -36,7 +36,7 @@ namespace UsuariosApp.API.Controllers
         [ProducesResponseType(typeof(CriarContaResponseDTO), 201)]
         public IActionResult CriarConta(CriarContaRequestDTO dto)
         {
-            return Ok();
+            return StatusCode(201, _usuarioAppService?.CriarConta(dto));
         }
     }
 }

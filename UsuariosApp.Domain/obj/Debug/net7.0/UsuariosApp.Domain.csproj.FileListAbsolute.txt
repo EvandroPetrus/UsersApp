@@ -1,0 +1,12 @@
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\bin\Debug\net7.0\UsuariosApp.Domain.deps.json
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\bin\Debug\net7.0\UsuariosApp.Domain.dll
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\bin\Debug\net7.0\UsuariosApp.Domain.pdb
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\obj\Debug\net7.0\UsuariosApp.Domain.csproj.AssemblyReference.cache
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\obj\Debug\net7.0\UsuariosApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\obj\Debug\net7.0\UsuariosApp.Domain.AssemblyInfoInputs.cache
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\obj\Debug\net7.0\UsuariosApp.Domain.AssemblyInfo.cs
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\obj\Debug\net7.0\UsuariosApp.Domain.csproj.CoreCompileInputs.cache
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\obj\Debug\net7.0\UsuariosApp.Domain.dll
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\obj\Debug\net7.0\refint\UsuariosApp.Domain.dll
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\obj\Debug\net7.0\UsuariosApp.Domain.pdb
+C:\Infis\fonte\UsersApp\UsuariosApp.Domain\obj\Debug\net7.0\ref\UsuariosApp.Domain.dll
