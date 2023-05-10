@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZOGHZw7MGF9+fh0CC6My4u9H2erqb9X1CgGpn69zK/BiM+APmrr8KKYm9/geKoYQdURLv+rlDGnuO7jhHSrOhQ==",
+  "dgSpecHash": "C3tQSc4CvJKXfyPDvz3tAvn7mJvIhPsvRkn07NBWK6Ln/6bBo9PbQZhF9me9TN37vjmyztEoTCwwTFx7mNCCEA==",
   "success": true,
-  "projectFilePath": "C:\\Infis\\fonte\\usuariosapp\\UsuariosApp.API\\UsuariosApp.API.csproj",
+  "projectFilePath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.API\\UsuariosApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\infis001091\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\infis001091\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

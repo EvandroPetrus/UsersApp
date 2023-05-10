@@ -107,6 +107,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "UsuariosApp.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/UsuariosApp.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UsuariosApp.Application.dll": {}
+        }
       }
     }
   },
@@ -451,12 +461,18 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "UsuariosApp.Application/1.0.0": {
+      "type": "project",
+      "path": "../UsuariosApp.Application/UsuariosApp.Application.csproj",
+      "msbuildProject": "../UsuariosApp.Application/UsuariosApp.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "UsuariosApp.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -466,11 +482,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Infis\\fonte\\usuariosapp\\UsuariosApp.API\\UsuariosApp.API.csproj",
+      "projectUniqueName": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.API\\UsuariosApp.API.csproj",
       "projectName": "UsuariosApp.API",
-      "projectPath": "C:\\Infis\\fonte\\usuariosapp\\UsuariosApp.API\\UsuariosApp.API.csproj",
+      "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.API\\UsuariosApp.API.csproj",
       "packagesPath": "C:\\Users\\infis001091\\.nuget\\packages\\",
-      "outputPath": "C:\\Infis\\fonte\\usuariosapp\\UsuariosApp.API\\obj\\",
+      "outputPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -490,7 +506,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Application\\UsuariosApp.Application.csproj": {
+              "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Application\\UsuariosApp.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
