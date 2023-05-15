@@ -4,14 +4,159 @@
     "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Tests\\UsuariosApp.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Tests\\UsuariosApp.Tests.csproj": {
+    "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.API\\UsuariosApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Tests\\UsuariosApp.Tests.csproj",
-        "projectName": "UsuariosApp.Tests",
-        "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Tests\\UsuariosApp.Tests.csproj",
+        "projectUniqueName": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.API\\UsuariosApp.API.csproj",
+        "projectName": "UsuariosApp.API",
+        "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.API\\UsuariosApp.API.csproj",
         "packagesPath": "C:\\Users\\infis001091\\.nuget\\packages\\",
-        "outputPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Tests\\obj\\",
+        "outputPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\infis001091\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Application\\UsuariosApp.Application.csproj": {
+                "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Application\\UsuariosApp.Application.csproj"
+              },
+              "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\UsuariosApp.Domain.csproj": {
+                "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\UsuariosApp.Domain.csproj"
+              },
+              "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Infra.Data\\UsuariosApp.Infra.Data.csproj": {
+                "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Infra.Data\\UsuariosApp.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Application\\UsuariosApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Application\\UsuariosApp.Application.csproj",
+        "projectName": "UsuariosApp.Application",
+        "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Application\\UsuariosApp.Application.csproj",
+        "packagesPath": "C:\\Users\\infis001091\\.nuget\\packages\\",
+        "outputPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\infis001091\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\UsuariosApp.Domain.csproj": {
+                "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\UsuariosApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\UsuariosApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\UsuariosApp.Domain.csproj",
+        "projectName": "UsuariosApp.Domain",
+        "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\UsuariosApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\infis001091\\.nuget\\packages\\",
+        "outputPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,7 +188,159 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Infra.Data\\UsuariosApp.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Infra.Data\\UsuariosApp.Infra.Data.csproj",
+        "projectName": "UsuariosApp.Infra.Data",
+        "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Infra.Data\\UsuariosApp.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\infis001091\\.nuget\\packages\\",
+        "outputPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\infis001091\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\UsuariosApp.Domain.csproj": {
+                "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Domain\\UsuariosApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Tests\\UsuariosApp.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Tests\\UsuariosApp.Tests.csproj",
+        "projectName": "UsuariosApp.Tests",
+        "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Tests\\UsuariosApp.Tests.csproj",
+        "packagesPath": "C:\\Users\\infis001091\\.nuget\\packages\\",
+        "outputPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\infis001091\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.API\\UsuariosApp.API.csproj": {
+                "projectPath": "C:\\Infis\\fonte\\UsersApp\\UsuariosApp.API\\UsuariosApp.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.3.2, )"

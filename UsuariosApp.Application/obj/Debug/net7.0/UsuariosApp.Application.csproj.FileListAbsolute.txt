@@ -22,3 +22,6 @@ C:\Infis\fonte\UsersApp\UsuariosApp.Application\obj\Debug\net7.0\UsuariosApp.App
 C:\Infis\fonte\UsersApp\UsuariosApp.Application\obj\Debug\net7.0\refint\UsuariosApp.Application.dll
 C:\Infis\fonte\UsersApp\UsuariosApp.Application\obj\Debug\net7.0\UsuariosApp.Application.pdb
 C:\Infis\fonte\UsersApp\UsuariosApp.Application\obj\Debug\net7.0\ref\UsuariosApp.Application.dll
+C:\Infis\fonte\UsersApp\UsuariosApp.Application\bin\Debug\net7.0\UsuariosApp.Domain.dll
+C:\Infis\fonte\UsersApp\UsuariosApp.Application\bin\Debug\net7.0\UsuariosApp.Domain.pdb
+C:\Infis\fonte\UsersApp\UsuariosApp.Application\obj\Debug\net7.0\UsuariosApp.Application.csproj.CopyComplete
