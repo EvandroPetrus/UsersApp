@@ -13,3 +13,5 @@ C:\Infis\fonte\UsersApp\UsuariosApp.Infra.Data\obj\Debug\net7.0\UsuariosApp.Infr
 C:\Infis\fonte\UsersApp\UsuariosApp.Infra.Data\obj\Debug\net7.0\refint\UsuariosApp.Infra.Data.dll
 C:\Infis\fonte\UsersApp\UsuariosApp.Infra.Data\obj\Debug\net7.0\UsuariosApp.Infra.Data.pdb
 C:\Infis\fonte\UsersApp\UsuariosApp.Infra.Data\obj\Debug\net7.0\ref\UsuariosApp.Infra.Data.dll
+C:\Infis\fonte\UsersApp\UsuariosApp.Infra.Data\bin\Debug\net7.0\UsuariosApp.Infra.Data.runtimeconfig.json
+C:\Infis\fonte\UsersApp\UsuariosApp.Infra.Data\obj\Debug\net7.0\UsuariosApp.Infra.Data.genruntimeconfig.cache

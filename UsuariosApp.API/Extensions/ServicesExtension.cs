@@ -15,7 +15,8 @@ namespace UsuariosApp.API.Extensions
             services.AddTransient<IUsuarioAppService, UsuarioAppService>();
             services.AddTransient<IUsuarioDomainService, UsuarioDomainService>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
-            services.AddTransient<DataContext>();
+            // Already configured on EntityFrameworkExtension.cs
+            //services.AddTransient<DataContext>();
 
             return services;
         }

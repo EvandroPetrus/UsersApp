@@ -2311,6 +2311,7 @@
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "Microsoft.Extensions.Configuration.Json": "7.0.0",
           "UsuariosApp.Domain": "1.0.0"
         },
         "runtime": {
