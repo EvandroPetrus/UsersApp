@@ -22,10 +22,10 @@ namespace UsuariosApp.API.Controllers
         /// </summary>
         [HttpPost]
         [Route("autenticar")]
-        [ProducesResponseType(typeof(AutenticarResponseDTO), 200)]
+        [ProducesResponseType(typeof(AutenticarResponseDTO), StatusCodes.Status200OK)]
         public IActionResult Autenticar(AutenticarRequestDTO dto)
         {
-            return Ok();        
+            return StatusCode(200, _usuarioAppService?.Autenticar(dto)); 
         }
 
         /// <summary>
@@ -33,10 +33,23 @@ namespace UsuariosApp.API.Controllers
         /// </summary>
         [HttpPost]
         [Route("criar-conta")]
-        [ProducesResponseType(typeof(CriarContaResponseDTO), 201)]
+        [ProducesResponseType(typeof(CriarContaResponseDTO), StatusCodes.Status201Created)]
         public IActionResult CriarConta(CriarContaRequestDTO dto)
         {
             return StatusCode(201, _usuarioAppService?.CriarConta(dto));
+        }
+
+        /// <summary>
+        /// Recuperar senha de usuário.
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("recuperar-senha")]
+        [ProducesResponseType(typeof(RecuperarSenhaResponseDTO), StatusCodes.Status200OK)]
+        public IActionResult RecuperarSenha(RecuperarSenhaRequestDTO dto)
+        {
+            return StatusCode(200, _usuarioAppService?.RecuperarSenha(dto));
         }
     }
 }

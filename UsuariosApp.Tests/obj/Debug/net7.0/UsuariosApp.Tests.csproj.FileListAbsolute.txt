@@ -462,3 +462,5 @@ C:\Infis\fonte\UsersApp\UsuariosApp.Tests\bin\Debug\net7.0\UsuariosApp.Applicati
 C:\Infis\fonte\UsersApp\UsuariosApp.Tests\bin\Debug\net7.0\UsuariosApp.Domain.pdb
 C:\Infis\fonte\UsersApp\UsuariosApp.Tests\bin\Debug\net7.0\UsuariosApp.Infra.Data.pdb
 C:\Infis\fonte\UsersApp\UsuariosApp.Tests\obj\Debug\net7.0\MvcTestingAppManifest.json
+C:\Infis\fonte\UsersApp\UsuariosApp.Tests\bin\Debug\net7.0\AutoMapper.dll
+C:\Infis\fonte\UsersApp\UsuariosApp.Tests\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

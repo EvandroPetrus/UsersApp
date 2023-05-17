@@ -12,5 +12,6 @@ namespace UsuariosApp.Application.Interfaces
     {
         AutenticarResponseDTO Autenticar(AutenticarRequestDTO dto);
         CriarContaResponseDTO CriarConta(CriarContaRequestDTO dto);
+        RecuperarSenhaResponseDTO RecuperarSenha(RecuperarSenhaRequestDTO dto);
     }
 }

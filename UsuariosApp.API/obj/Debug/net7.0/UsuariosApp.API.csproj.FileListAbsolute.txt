@@ -150,3 +150,6 @@ C:\Infis\fonte\UsersApp\UsuariosApp.API\bin\Debug\net7.0\UsuariosApp.Domain.dll
 C:\Infis\fonte\UsersApp\UsuariosApp.API\bin\Debug\net7.0\UsuariosApp.Infra.Data.dll
 C:\Infis\fonte\UsersApp\UsuariosApp.API\bin\Debug\net7.0\UsuariosApp.Domain.pdb
 C:\Infis\fonte\UsersApp\UsuariosApp.API\bin\Debug\net7.0\UsuariosApp.Infra.Data.pdb
+C:\Infis\fonte\UsersApp\UsuariosApp.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Infis\fonte\UsersApp\UsuariosApp.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Infis\fonte\UsersApp\UsuariosApp.API\bin\Debug\net7.0\Newtonsoft.Json.dll
